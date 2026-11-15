@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offices & Contact | Arjun Kshetri — Kolkata & London Consultations</title>
+    <meta name="description" content="Get in touch with Arjun Kshetri. Office locations in Kolkata (Synthesis Business Park) and Greater London (Harrow). Schedule a confidential legal consultation.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,400;1,600&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Great+Vibes&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        serif: ['"Playfair Display"', 'Georgia', 'serif'],
+                        sans: ['"Open Sans"', 'sans-serif'],
+                        signature: ['"Great Vibes"', 'cursive'],
+                    },
+                    colors: {
+                        primary: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            400: '#38bdf8',
+                            500: '#2CA5D8',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                        },
+                        dark: {
+                            900: '#1b1d20',
+                            850: '#22252a',
+                            800: '#2a2e35',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        .sub-italic {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-style: italic;
+            font-weight: 400;
+        }
+        .template-corner-frame {
+            position: relative;
+            background: #ffffff;
+            border: 1px solid #e9ecef;
+        }
+        .template-corner-frame::before {
+            content: '';
+            position: absolute;
+            top: 6px;
+            left: 6px;
+            right: 6px;
+            bottom: 6px;
+            border: 1px dashed #d8dee4;
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body class="bg-white text-slate-700 font-sans antialiased selection:bg-primary-500 selection:text-white">
+
+    <!-- Top Compliance Bar -->
+    <div class="bg-slate-100 border-b border-slate-200 py-1.5 px-4 text-center text-[11px] tracking-wider text-slate-500 uppercase">
+        <span>Informational Legal Profile • Bar Council of India Rule 36 Compliant • Dual UK &amp; India Jurisdiction</span>
+    </div>
+
+    <!-- MAIN NAVBAR -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-3 group">
+                <div class="w-11 h-11 bg-primary-500 flex items-center justify-center text-white font-serif font-bold text-xl shadow-sm">
+                    <i data-lucide="scale" class="w-6 h-6"></i>
+                </div>
+                <div>
+                    <span class="block font-serif font-extrabold text-xl tracking-wider text-slate-900 group-hover:text-primary-500 transition-colors">
+                        ARJUN KSHETRI
+                    </span>
+                    <span class="block text-[10px] tracking-widest text-slate-500 uppercase font-semibold">
+                        Advocate &amp; Legal Strategist
+                    </span>
+                </div>
+            </a>
+
+            <!-- Navigation Links -->
+            <nav class="hidden md:flex items-center space-x-8 text-[13px] font-semibold tracking-wider text-slate-700 uppercase">
+                <a href="index.html" class="hover:text-primary-500 transition-colors">Home</a>
+                <a href="about.html" class="hover:text-primary-500 transition-colors">About Me</a>
+                <a href="practice-areas.html" class="hover:text-primary-500 transition-colors">Practice Areas</a>
+                <a href="ventures.html" class="hover:text-primary-500 transition-colors">Ventures</a>
+                <a href="credentials.html" class="hover:text-primary-500 transition-colors">Credentials</a>
+                <a href="contact.html" class="text-primary-500 transition-colors">Contact</a>
+            </nav>
+
+            <div class="hidden sm:flex items-center gap-3">
+                <a href="contact.html" class="px-5 py-2.5 bg-primary-500 hover:bg-primary-600 text-white font-bold text-xs uppercase tracking-wider transition-all shadow-sm flex items-center gap-2">
+                    <i data-lucide="calendar" class="w-3.5 h-3.5"></i>
+                    Book Consultation
+                </a>
+            </div>
+
+            <button id="mobile-toggle" aria-label="Toggle Navigation" class="md:hidden p-2 text-slate-700 hover:text-primary-500">
+                <i data-lucide="menu" class="w-6 h-6"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pt-3 pb-6 bg-white border-b border-slate-200 space-y-3 text-sm font-semibold uppercase tracking-wider text-slate-800">
+            <a href="index.html" class="block py-2 hover:text-primary-500 mobile-link">Home</a>
+            <a href="about.html" class="block py-2 hover:text-primary-500 mobile-link">About Me</a>
+            <a href="practice-areas.html" class="block py-2 hover:text-primary-500 mobile-link">Practice Areas</a>
+            <a href="ventures.html" class="block py-2 hover:text-primary-500 mobile-link">Ventures &amp; Leadership</a>
+            <a href="credentials.html" class="block py-2 hover:text-primary-500 mobile-link">Credentials</a>
+            <a href="contact.html" class="block py-2 text-primary-500 mobile-link">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header Banner -->
+        <section class="bg-slate-900 py-16 text-white bg-cover bg-center" style="background-image: linear-gradient(rgba(20, 24, 30, 0.9), rgba(20, 24, 30, 0.9)), url('https://images.unsplash.com/photo-1575517111839-3a3843ee7f5d?auto=format&fit=crop&w=1400&q=80');">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-3">
+                <div class="text-xs uppercase tracking-widest text-primary-400 font-mono">
+                    <a href="index.html" class="hover:underline">Home</a> / Contact
+                </div>
+                <h1 class="text-3xl sm:text-4xl font-serif font-bold uppercase tracking-wide">
+                    Offices &amp; Contact
+                </h1>
+                <p class="text-slate-300 text-sm max-w-2xl mx-auto font-light sub-italic">
+                    “Direct access to confidential counsel across Kolkata, Greater London, and Dubai.”
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="py-20 bg-slate-50 border-b border-slate-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+                    
+                    <!-- Left: Detailed Office Cards -->
+                    <div class="lg:col-span-5 space-y-8">
+                        
+                        <div class="space-y-2">
+                            <span class="text-xs uppercase tracking-widest text-primary-600 font-bold block font-mono">
+                                DIRECT CHANNELS
+                            </span>
+                            <h2 class="text-2xl font-serif font-bold text-slate-900 uppercase">
+                                Global Office Chambers
+                            </h2>
+                        </div>
+
+                        <!-- Office 1: Kolkata -->
+                        <div class="bg-white border border-slate-200 p-6 shadow-sm space-y-3">
+                            <div class="flex items-center justify-between border-b pb-3">
+                                <div class="flex items-center gap-2.5">
+                                    <div class="w-7 h-7 bg-primary-500 text-white flex items-center justify-center font-bold text-xs">
+                                        IND
+                                    </div>
+                                    <h3 class="font-serif font-bold text-sm text-slate-900 uppercase">India Office (Kolkata)</h3>
+                                </div>
+                                <span class="text-[10px] uppercase font-mono px-2 py-0.5 bg-slate-100 text-slate-600 font-bold">Litigation Head</span>
+                            </div>
+                            <p class="text-xs text-slate-600 leading-relaxed font-light">
+                                Synthesis Business Park, Unit 06, 7th Floor, CBD/1, Action Area II, New Town, Kolkata – 700156, West Bengal, India
+                            </p>
+                            <div class="pt-2 text-xs text-slate-700 space-y-1 font-mono">
+                                <p><strong>Direct Line:</strong> <a href="tel:+916289065644" class="text-primary-600 hover:underline">+91 62890 65644</a></p>
+                                <p><strong>Bar Standing:</strong> Bar Council of West Bengal (WB17452014)</p>
+                            </div>
+                        </div>
+
+                        <!-- Office 2: London -->
+                        <div class="bg-white border border-slate-200 p-6 shadow-sm space-y-3">
+                            <div class="flex items-center justify-between border-b pb-3">
+                                <div class="flex items-center gap-2.5">
+                                    <div class="w-7 h-7 bg-slate-900 text-white flex items-center justify-center font-bold text-xs">
+                                        UK
+                                    </div>
+                                    <h3 class="font-serif font-bold text-sm text-slate-900 uppercase">United Kingdom Office</h3>
+                                </div>
+                                <span class="text-[10px] uppercase font-mono px-2 py-0.5 bg-slate-100 text-slate-600 font-bold">Corporate Advisory</span>
+                            </div>
+                            <p class="text-xs text-slate-600 leading-relaxed font-light">
+                                79 College Road, Harrow, HA1 1BD, England, United Kingdom
+                            </p>
+                            <div class="pt-2 text-xs text-slate-700 space-y-1 font-mono">
+                                <p><strong>Consultancy Portal:</strong> <a href="https://aarnexlaw.com" target="_blank" rel="noopener noreferrer" class="text-primary-600 hover:underline">aarnexlaw.com</a></p>
+                                <p><strong>Registered Entities:</strong> Aarnex Law Ltd &amp; Think Crest Advisory</p>
+                            </div>
+                        </div>
+
+                        <!-- Verified Digital Records -->
+                        <div class="bg-white border border-slate-200 p-6 shadow-sm space-y-3">
+                            <h3 class="font-serif font-bold text-sm text-slate-900 uppercase border-b pb-2">
+                                Verified Public Records
+                            </h3>
+                            <div class="space-y-2 text-xs text-slate-600">
+                                <div class="flex items-center justify-between">
+                                    <span>eCourts Verified Advocate Record:</span>
+                                    <a href="https://ecourtsindia.com" target="_blank" rel="noopener noreferrer" class="text-primary-600 hover:underline font-semibold font-mono">View eCourts &rarr;</a>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <span>LinkedIn Professional Profile:</span>
+                                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="text-primary-600 hover:underline font-semibold font-mono">View LinkedIn &rarr;</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Right: Framed Contact Form matching template design -->
+                    <div class="lg:col-span-7">
+                        <div class="template-corner-frame p-8 sm:p-12 shadow-sm">
+                            
+                            <div class="mb-6 space-y-1 relative z-10">
+                                <span class="text-[11px] font-mono text-primary-600 font-bold uppercase tracking-wider">
+                                    CONFIDENTIAL INQUIRY
+                                </span>
+                                <h3 class="text-xl sm:text-2xl font-serif font-bold text-slate-900 uppercase">
+                                    Book a Preliminary Consultation
+                                </h3>
+                                <p class="text-xs text-slate-500 font-light">
+                                    Please provide summary context regarding your litigation matter or cross-border commercial advisory need.
+                                </p>
+                            </div>
+
+                            <form id="consultation-form" class="space-y-6 relative z-10">
+                                <div>
+                                    <input type="text" id="name" required placeholder="YOUR NAME (REQUIRED)" 
+                                           class="w-full pb-3 border-b border-slate-200 focus:border-primary-500 focus:outline-none text-xs tracking-wider uppercase font-sans text-slate-800 placeholder-slate-400 bg-transparent">
+                                </div>
+
+                                <div>
+                                    <input type="email" id="email" required placeholder="YOUR EMAIL ADDRESS (REQUIRED)" 
+                                           class="w-full pb-3 border-b border-slate-200 focus:border-primary-500 focus:outline-none text-xs tracking-wider uppercase font-sans text-slate-800 placeholder-slate-400 bg-transparent">
+                                </div>
+
+                                <div>
+                                    <input type="tel" id="phone" placeholder="YOUR PHONE NUMBER &amp; COUNTRY CODE (REQUIRED)" 
+                                           class="w-full pb-3 border-b border-slate-200 focus:border-primary-500 focus:outline-none text-xs tracking-wider uppercase font-sans text-slate-800 placeholder-slate-400 bg-transparent">
+                                </div>
+
+                                <div>
+                                    <select id="matter-jurisdiction" required class="w-full pb-3 border-b border-slate-200 focus:border-primary-500 focus:outline-none text-xs tracking-wider uppercase font-sans text-slate-700 bg-transparent">
+                                        <option value="">SELECT PRACTICE DOMAIN / JURISDICTION</option>
+                                        <option value="corporate-crossborder">Corporate &amp; Cross-Border Structuring (UK / UAE / India)</option>
+                                        <option value="startup-vc">Startup Lifecycle, Equity &amp; VC Funding</option>
+                                        <option value="criminal-defense">Criminal Defense, NDPS &amp; Anticipatory Bail (India)</option>
+                                        <option value="civil-commercial">Civil &amp; Commercial High Court Litigation (India)</option>
+                                        <option value="virtual-gc">Virtual General Counsel Retainer</option>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <textarea id="message" rows="5" required placeholder="BRIEF OVERVIEW OF LEGAL MATTER OR CONSULTANCY OBJECTIVES" 
+                                              class="w-full pb-3 border-b border-slate-200 focus:border-primary-500 focus:outline-none text-xs tracking-wider uppercase font-sans text-slate-800 placeholder-slate-400 bg-transparent resize-none"></textarea>
+                                </div>
+
+                                <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pt-2">
+                                    <button type="submit" class="px-8 py-3.5 bg-primary-500 hover:bg-primary-600 text-white font-bold text-xs uppercase tracking-widest transition-all shadow-sm">
+                                        SUBMIT INQUIRY
+                                    </button>
+                                    <p class="text-[11px] text-slate-400 font-light italic">
+                                        Attorney-Client privilege &amp; strict confidentiality assured.
+                                    </p>
+                                </div>
+                            </form>
+
+                            <div id="form-success" class="hidden text-center py-10 space-y-3 relative z-10">
+                                <div class="w-12 h-12 bg-primary-50 text-primary-500 rounded-full flex items-center justify-center mx-auto">
+                                    <i data-lucide="check" class="w-6 h-6"></i>
+                                </div>
+                                <h4 class="font-serif font-bold text-lg text-slate-900 uppercase">Consultation Request Sent</h4>
+                                <p class="text-xs text-slate-500 max-w-sm mx-auto font-light">
+                                    Thank you. Arjun Kshetri's office has received your inquiry and will connect with you promptly.
+                                </p>
+                                <button type="button" id="reset-form-btn" class="text-xs text-primary-500 underline uppercase tracking-wider font-semibold pt-2">
+                                    Send another inquiry
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark-850 text-slate-400 text-xs relative pt-12 pb-8 border-t border-slate-800">
+        <button id="footer-up-btn" aria-label="Back to Top" class="absolute -top-5 left-1/2 -translate-x-1/2 w-10 h-10 bg-primary-500 hover:bg-primary-600 text-white flex items-center justify-center shadow-md transition-colors">
+            <i data-lucide="chevron-up" class="w-5 h-5"></i>
+        </button>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <div class="space-y-4">
+                    <h5 class="text-white font-serif font-bold uppercase tracking-widest text-xs">ABOUT ARJUN KSHETRI</h5>
+                    <p class="text-slate-400 leading-relaxed font-light text-xs">
+                        Qualified lawyer, legal strategist, and business advisor combining courtroom litigation acumen with UK executive corporate consulting across India, the UK, and Dubai.
+                    </p>
+                    <div class="pt-2">
+                        <span class="font-signature text-3xl text-slate-200 block">Arjun Kshetri</span>
+                    </div>
+                </div>
+
+                <div class="space-y-3">
+                    <h5 class="text-white font-serif font-bold uppercase tracking-widest text-xs">PAGES</h5>
+                    <ul class="space-y-2 text-xs text-slate-400 font-light">
+                        <li><a href="index.html" class="hover:text-white transition-colors">&bull; Home</a></li>
+                        <li><a href="about.html" class="hover:text-white transition-colors">&bull; About Arjun Kshetri</a></li>
+                        <li><a href="practice-areas.html" class="hover:text-white transition-colors">&bull; Practice Areas &amp; Pillars</a></li>
+                        <li><a href="ventures.html" class="hover:text-white transition-colors">&bull; Ventures &amp; Leadership</a></li>
+                        <li><a href="credentials.html" class="hover:text-white transition-colors">&bull; Credentials &amp; Qualifications</a></li>
+                        <li><a href="contact.html" class="hover:text-white transition-colors">&bull; Offices &amp; Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="space-y-3">
+                    <h5 class="text-white font-serif font-bold uppercase tracking-widest text-xs">OFFICES</h5>
+                    <div class="space-y-2 text-xs text-slate-400 font-light">
+                        <p class="flex items-center gap-2"><i data-lucide="phone" class="w-3.5 h-3.5 text-primary-400"></i> +91 62890 65644</p>
+                        <p class="flex items-center gap-2"><i data-lucide="map-pin" class="w-3.5 h-3.5 text-primary-400"></i> Synthesis Business Park, New Town, Kolkata</p>
+                        <p class="flex items-center gap-2"><i data-lucide="globe" class="w-3.5 h-3.5 text-primary-400"></i> 79 College Road, Harrow, Greater London</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pt-6 border-t border-slate-800 text-[10px] text-slate-500 leading-relaxed">
+                <p><strong>Bar Council of India Rule 36 Compliance:</strong> Advocates are prohibited from soliciting work or advertising. This page is purely informational.</p>
+            </div>
+
+            <div class="flex flex-col sm:flex-row items-center justify-between text-[11px] text-slate-500 gap-4 pt-4 border-t border-slate-800/60">
+                <div class="flex items-center gap-4">
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="hover:text-white"><i data-lucide="linkedin" class="w-4 h-4"></i></a>
+                    <a href="https://aarnexlaw.com" target="_blank" rel="noopener noreferrer" class="hover:text-white"><i data-lucide="globe" class="w-4 h-4"></i></a>
+                    <a href="tel:+916289065644" class="hover:text-white"><i data-lucide="phone" class="w-4 h-4"></i></a>
+                </div>
+                <p>&copy; 2026 Arjun Kshetri. Enrolled with Bar Council of West Bengal (WB17452014).</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+        const mobileToggle = document.getElementById('mobile-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileToggle.addEventListener('click', () => { mobileMenu.classList.toggle('hidden'); });
+
+        const form = document.getElementById('consultation-form');
+        const successBox = document.getElementById('form-success');
+        const resetBtn = document.getElementById('reset-form-btn');
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            form.classList.add('hidden');
+            successBox.classList.remove('hidden');
+            lucide.createIcons();
+        });
+        resetBtn.addEventListener('click', () => {
+            form.reset();
+            successBox.classList.add('hidden');
+            form.classList.remove('hidden');
+        });
+
+        document.getElementById('footer-up-btn').addEventListener('click', () => { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+    </script>
+</body>
+</html>

@@ -1,63 +1,63 @@
-# Arjun Kshetri — Official Portfolio & Advisory Website
+# Arjun Kshetri — Official Multi-Page Portfolio Website
 
-An executive, modern, and cross-border portfolio website designed for **Arjun Kshetri** (Legal Strategist, Advocate, and Corporate & Management Consultant).
+A multi-page portfolio and advisory website designed for **Arjun Kshetri** (Legal Strategist, Advocate, and Corporate & Management Consultant), inspired by the executive UI layout.
 
 ---
 
-## 🏛️ Website Overview & Structure
+## 🏛️ Multi-Page Architecture
 
-The website includes all 8 core sections requested:
+1. **Home (`index.html`)**:
+   - Executive hero presentation with portrait cutout (`assets/arjun-kshetri.jpg`) and slide controls
+   - Highlights bar with statistics (10+ Years, 3 Jurisdictions, Dual-Qualified Perspective)
+   - Three-card practice area showcase with classical architectural imagery
+   - Full-width dark quote banner
+   - Progress indicators & drop-cap executive profile quote
+   - Institutional ventures & leadership roles
+   - Parallax court pillars counter section
+   - Framed contact & consultation booking form with inner dashed border
+   - Affiliation brand bar & dark charcoal footer with script signature
 
-1. **Hero Section**:
-   - Executive headshot portrait (`assets/arjun-kshetri.jpg`)
-   - Official name and full legal name disclosure: *Arjun Kumar Karki Kshetri*
-   - Core headline, tagline (*"Bridging courtroom precision with boardroom foresight across India, the UK, and Dubai"*), and sub-headline
-   - Dual Call-to-Action buttons (*Book a Consultation* & *Explore Practice Areas*)
-   - Quick credential badges (Bar Council of West Bengal WB17452014 & University of Sheffield UK / MBA)
+2. **About Me (`about.html`)**:
+   - Detailed professional biography and career transition from courtroom litigation to corporate boardrooms
+   - Core values and approach: Commercial Pragmatism, Cross-Border Reach, and End-to-End Lifecycle Support
+   - "At a Glance" qualifications table and executive philosophy
 
-2. **Key Highlights / Metrics Bar**:
-   - 10+ Years of Experience
-   - 3 Jurisdictions (India | United Kingdom | UAE)
-   - Dual Qualified Perspective (LLB & MBA, UK | Bar Council of West Bengal)
-   - Founder Leadership (Aarnex Law & Think Crest Advisory)
+3. **Practice Areas (`practice-areas.html`)**:
+   - **Pillar A: Corporate & Business Advisory (UK, UAE & India)**:
+     - Startup Lifecycle Advisory (Founder Agreements, IP Protection, Entity Structuring)
+     - Commercial & Corporate Law (Contracts, Shareholder Pacts, GDPR)
+     - Growth & Exit Strategy (India-UK-UAE Corridors, M&A, VC Financing)
+     - Virtual General Counsel (Fractional Retainers, Dispute Mitigation)
+   - **Pillar B: Litigation & Dispute Resolution (India)**:
+     - Criminal Defense & Bail (Anticipatory Bail, NDPS Act Matters)
+     - Civil & Commercial Litigation (Suits, Injunctions, Appellate Disputes)
+     - Constitutional Courts Showcase: Supreme Court of India, Calcutta High Court, Delhi High Court, and Bombay High Court
 
-3. **About / Bio Section**:
-   - High-stakes dispute resolution and corporate governance background
-   - Transition from courtroom litigation to boardroom corporate strategy
-   - Three Strategic Pillars: Commercial Pragmatism, Cross-Border Reach, and End-to-End Lifecycle Support
+4. **Ventures & Leadership (`ventures.html`)**:
+   - **Aarnex Law Ltd** (UK) — Founder & Guiding Force ([aarnexlaw.com](https://aarnexlaw.com))
+   - **Think Crest Advisory Limited** (UK) — Founder & Director
+   - **Kshetri & Associates** (Kolkata, India) — Lead Advocate
 
-4. **Ventures & Leadership**:
-   - **Aarnex Law Ltd** (UK) — Strategic legal support for startups, SMEs, IP, and M&A (with direct link to [aarnexlaw.com](https://aarnexlaw.com))
-   - **Think Crest Advisory Limited** (UK) — Management and legal consultancy
-   - **Kshetri & Associates** (Kolkata, India) — Full-service trial and High Court litigation
-
-5. **Areas of Practice**:
-   - **Pillar A: Corporate & Business Advisory** (UK, UAE & Cross-Border): Startup Lifecycle, Commercial & Corporate Law, Growth & Exit Strategy, Virtual General Counsel
-   - **Pillar B: Litigation & Dispute Resolution** (India): Criminal Defense & Bail, Civil & Commercial Litigation, and High Court / Supreme Court practice showcases
-
-6. **Credentials, Qualifications & Recognition**:
+5. **Credentials & Recognition (`credentials.html`)**:
    - Master of Business Administration (MBA) — United Kingdom
    - Bachelor of Laws (LLB) — The University of Sheffield, United Kingdom
-   - Bar Council Enrollment — Bar Council of West Bengal (Bar ID: WB17452014)
+   - Bar Council of West Bengal (Bar ID: `WB17452014`)
    - Jury & Panel Member — Crest Chronicle Awards
+   - Analysis of the strategic advantage of dual-qualification (UK Law + MBA + Indian Trial Court standing)
 
-7. **Office Locations & Contact Details**:
-   - **India Office (Kolkata)**: Synthesis Business Park, Unit 06, 7th Floor, CBD/1, Action Area II, New Town, Kolkata – 700156, West Bengal
-   - **UK Office (Greater London)**: 79 College Road, Harrow, HA1 1BD, England, United Kingdom
-   - Phone line (+91 62890 65644), eCourts Profile, LinkedIn link, and interactive consultation form.
-
-8. **SEO & Regulatory Compliance**:
-   - Complete `<meta>` tags for title, description, and keywords
-   - Standard Bar Council of India Rule 36 compliance disclaimer and non-solicitation notice.
+6. **Offices & Contact (`contact.html`)**:
+   - India Office: Synthesis Business Park, New Town, Kolkata
+   - UK Office: 79 College Road, Harrow, Greater London
+   - Direct Line: `+91 62890 65644`
+   - eCourts India and LinkedIn verified profiles
+   - Full consultation inquiry form with client-side validation and confirmation state
 
 ---
 
 ## 🚀 How to Run & Preview Locally
 
-You can open `index.html` directly in any web browser, or launch a quick local development server:
-
 ```bash
-# Using Python
+# In the project directory:
 python3 -m http.server 8000
 
 # Open in browser:
